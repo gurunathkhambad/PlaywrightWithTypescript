@@ -156,13 +156,13 @@ test.only("Custom Date Picker Dual Month Consecutive", async ({ page }) => {
     const endTableLocator = page.locator("table[aria-labelledby*='bui-calendar-month']").nth(pageNo);
     const endRows: Locator[] = await endTableLocator.locator("tr").all();
     for (let row of endRows) {
-        let valuesLocator: Locator[] = await row.locator("td span span 1").all();
+        let valuesLocator: Locator[] = await row.locator("td span span").all();
         for (let value of valuesLocator) {
             {
                 const valueText = await value.innerText();
                 if (valueText === targetToDate) {
                     await value.click();
-                    await page.waitForTimeout(5000);
+                 //   await page.waitForTimeout(5000);
                     break;                    
                 }
 
