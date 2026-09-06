@@ -1,0 +1,14 @@
+{
+  "name": "practiseforinterview",
+  "version": "1.0.0",
+  "description": "typescript file always be convert the from the typescript to the javascript. Without converstion \r typescript will not run directly.",
+  "main": "destructuring.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^25.9.1"
+  }
+}
