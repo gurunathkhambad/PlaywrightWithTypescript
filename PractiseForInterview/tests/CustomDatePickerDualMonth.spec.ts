@@ -88,7 +88,7 @@ test("Custom Date Picker Dual Month", async ({ page }) => {
 
 // Select the from date and to date from the consgicutive month and year
 
-test.only("Custom Date Picker Dual Month Consecutive", async ({ page }) => {
+test("Custom Date Picker Dual Month Consecutive", async ({ page }) => {
 
     const targetMonth: string = "December";
     const targetYear: string = "2026";

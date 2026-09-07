@@ -60,7 +60,7 @@ test("Opening the new tab through code",async({page,context})=>{
      await page.waitForTimeout(3000);
 })
 
-test.only("Opening the window through the code by evalute method",async({page,context})=>{
+test("Opening the window through the code by evalute method",async({page,context})=>{
 
     await page.goto("https://demoqa.com/");
     const [newPage]= await Promise.all([
