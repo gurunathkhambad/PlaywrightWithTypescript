@@ -16,7 +16,7 @@ test("Static Table", async ({ page }) => {
 })
 
 // Extract the value of those row which has Java 
-test.only("extracting the rows values which has Java", async({page})=>{
+test("extracting the rows values which has Java", async({page})=>{
 
     await page.goto("https://testautomationpractice.blogspot.com");
     const table:Locator=page.locator('table[name="BookTable"] tbody');

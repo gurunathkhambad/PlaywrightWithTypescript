@@ -63,7 +63,7 @@ test("Confirm check box handling ", async ({ page }) => {
     expect(text).toContain('selected');
 })
 
-test.only("Handling the prompt alert",async({page})=>{
+test("Handling the prompt alert",async({page})=>{
     await page.goto("https://demoqa.com/");
     await page.locator("a[href*='alertsWindows']").click();
     await page.locator("a[href$='alerts']").click();

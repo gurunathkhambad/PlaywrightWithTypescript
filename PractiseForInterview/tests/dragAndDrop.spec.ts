@@ -25,7 +25,7 @@ test("Validating the drag and drop operation",async({page})=>{
 
 })
 
-test.only("Another way of drag and drop",async({page})=>{
+test("Another way of drag and drop",async({page})=>{
 
     await page.goto("https://www.testmuai.com/selenium-playground/ajax-form-submit-demo/");
     await page.locator('#description').click();
