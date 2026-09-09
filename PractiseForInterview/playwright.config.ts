@@ -27,7 +27,7 @@ export default defineConfig({
   reporter: [
     ['line'],
     ['allure-playwright', {
-      resultsDir: 'C:/GitHub_Playwright_Code/PlaywrightWithTypescript/PractiseForInterview/allure-results'
+      resultsDir: './allure-results'
     }]
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
